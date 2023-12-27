@@ -52,4 +52,23 @@ public class EntityFactory
     public  static Usuario createUsuario( long _id_usuario ){
         return new Usuario(_id_usuario);
     }
+
+
+    public static Querella createQuerella () {
+        return new Querella();
+    }
+
+    public static Querella createQuerella ( long id_querella){
+        return new Querella( id_querella );
+    }
+
+
+    public static P_Q createP_Q(){
+        return createP_Q();
+    }
+
+    public static P_Q createP_Q( Querella id_querella, Persona id_agresor, Persona id_victima ){
+        return new P_Q( id_querella, id_agresor, id_victima);
+
+    }
 }
