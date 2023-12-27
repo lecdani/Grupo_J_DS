@@ -19,4 +19,12 @@ public class DaoFactory
         return new PersonaDao( handler );
     }
 
+    public  static QuerellaDao createQuerellaDao ( DBHandler handler){
+        return new QuerellaDao( handler );
+    }
+
+    public  static P_QDao createP_QDao ( DBHandler handler){
+        return new P_QDao(handler);
+    }
+
 }
