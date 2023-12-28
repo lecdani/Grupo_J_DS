@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="entities" />
+        <module name="ORMExample" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="backend" target="1.8" />
+      <module name="command" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="dao" target="1.8" />
+      <module name="dtos" target="1.8" />
+      <module name="entities" target="1.8" />
+      <module name="enums" target="1.8" />
+      <module name="exceptions" target="1.8" />
+      <module name="implementation" target="1.8" />
+      <module name="logic" target="1.8" />
+      <module name="mappers" target="1.8" />
+      <module name="persistence" target="1.8" />
+      <module name="properties" target="1.8" />
+      <module name="services" target="1.8" />
+      <module name="utilities" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
