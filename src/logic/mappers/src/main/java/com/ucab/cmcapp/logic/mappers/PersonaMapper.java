@@ -31,7 +31,7 @@ public class PersonaMapper extends BaseMapper{
         entity.setFec_nac( dto.get_fec_nac());
 
         //region Instrumentation DEBUG
-        _logger.debug( "Leaving UserMapper.mapDtoToEntity: entity {}", entity );
+        _logger.debug( "Leaving PersonaMapper.mapDtoToEntity: entity {}", entity );
         //endregion
 
         return entity;

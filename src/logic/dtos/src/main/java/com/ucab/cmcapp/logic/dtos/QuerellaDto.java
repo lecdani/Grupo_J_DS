@@ -6,9 +6,9 @@ public class QuerellaDto extends BaseDto {
     private long _id_querella;
     private Date _fecha_caso;
     private String _descripcion;
-    private String _distancia_alejamiento;
-    private String _cuenta_atras;
-    private String _inamovilidad;
+    private long _distancia_alejamiento;
+    private long _cuenta_atras;
+    private long _inamovilidad;
 
     public QuerellaDto(){}
 
@@ -41,27 +41,27 @@ public class QuerellaDto extends BaseDto {
         this._descripcion = _descripcion;
     }
 
-    public String get_distancia_alejamiento() {
+    public long get_distancia_alejamiento() {
         return _distancia_alejamiento;
     }
 
-    public void set_distancia_alejamiento(String _distancia_alejamiento) {
+    public void set_distancia_alejamiento(long _distancia_alejamiento) {
         this._distancia_alejamiento = _distancia_alejamiento;
     }
 
-    public String get_cuenta_atras() {
+    public long get_cuenta_atras() {
         return _cuenta_atras;
     }
 
-    public void set_cuenta_atras(String _cuenta_atras) {
+    public void set_cuenta_atras(long _cuenta_atras) {
         this._cuenta_atras = _cuenta_atras;
     }
 
-    public String get_inamovilidad() {
+    public long get_inamovilidad() {
         return _inamovilidad;
     }
 
-    public void set_inamovilidad(String _inamovilidad) {
+    public void set_inamovilidad(long _inamovilidad) {
         this._inamovilidad = _inamovilidad;
     }
 }

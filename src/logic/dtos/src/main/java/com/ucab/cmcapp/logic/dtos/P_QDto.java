@@ -1,14 +1,14 @@
 package com.ucab.cmcapp.logic.dtos;
 
-public class Q_PDto extends BaseDto{
+public class P_QDto extends BaseDto{
     private PersonaDto _id_agresor;
     private PersonaDto _id_victima;
     private QuerellaDto _id_querella;
 
-    public Q_PDto() {
+    public P_QDto() {
     }
 
-    public Q_PDto(long id, PersonaDto _id_agresor, PersonaDto _id_victima, QuerellaDto _id_querella) {
+    public P_QDto(long id, PersonaDto _id_agresor, PersonaDto _id_victima, QuerellaDto _id_querella) {
         super(id);
         this._id_agresor = _id_agresor;
         this._id_victima = _id_victima;
